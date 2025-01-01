@@ -57,3 +57,17 @@ button, .fourthbar {
     font-style: light italic;
     color: #1F2937;
 }
+
+.firstbar-image {
+    width: 400px;
+    height: auto;
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+}
+
+.header-logo {
+    font-weight: 900;
+}
