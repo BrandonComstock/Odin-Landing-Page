@@ -1,0 +1,7 @@
+body {
+    font-family: Roboto, sans-serif, 'Times New Roman', Times, serif;
+}
+
+.header, .footer, .firstbar{
+    background: #1f2937;
+}
