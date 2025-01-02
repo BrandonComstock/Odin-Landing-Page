@@ -1,7 +1,13 @@
 body {
     font-family: Roboto, sans-serif, 'Times New Roman', Times, serif;
+    min-height: 100vh;
     color: #F9FAF8;
-    background: #F9FAF8;
+    background: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    /* justify-content: space-around; */
 }
 
 .text {
@@ -13,9 +19,11 @@ a {
 }
 
 ul {
-    text-decoration: none;
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 16px;
 }
 
 .header, .footer, .firstbar{
@@ -28,7 +36,7 @@ ul {
     color: #F9FAF8;
 }
 
-.firstbar-text, a{
+.firstbar-text, a, button{
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -46,16 +54,28 @@ button, .fourthbar {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
 .thirdbar {
     background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .quote {
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
+}
+
+.source {
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: end;
 }
 
 .firstbar-image {
@@ -70,4 +90,58 @@ button, .fourthbar {
 
 .header-logo {
     font-weight: 900;
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 16px;
+}
+
+.firstbar {
+    display: flex;
+    padding: 48px;
+}
+
+.secondbar {
+    display: flex;
+    flex-direction: column;
+    background: #F9FAF8;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    padding: 16px;
+}
+
+.fourthbar {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.fourthbar-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 16px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourthbar-content {
+    display: flex;
 }
